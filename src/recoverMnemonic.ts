@@ -1,8 +1,8 @@
-import { entropyToMnemonic, mnemonicToEntropy } from './mnemonic';
+import { entropyToMnemonic, mnemonicToEntropy } from 'bip39';
 import { recoverHex } from './recoverHex';
 import { Shares } from './types';
 
-export function recoverMnemonic(shares: Shares): string[] {
+export function recoverMnemonic(shares: Shares): string {
   const hexShares = Object.keys(shares).reduce<Record<string, string>>(
     (accum, id) => {
       const hexShare = mnemonicToEntropy(shares[id]);

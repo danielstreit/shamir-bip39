@@ -1,9 +1,9 @@
-import { entropyToMnemonic, mnemonicToEntropy } from './mnemonic';
+import { entropyToMnemonic, mnemonicToEntropy } from 'bip39';
 import { splitHex } from './splitHex';
 import { Shares } from './types';
 
 export function splitMnemonic(
-  mnemonic: string[],
+  mnemonic: string,
   numShares: number,
   threshold: number
 ): Shares {

@@ -1,1 +1,1 @@
-export type Shares = Record<string, string[]>;
+export type Shares = Record<string, string>;
