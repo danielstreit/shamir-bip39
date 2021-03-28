@@ -2,6 +2,22 @@
 
 Applies [Shamir's Secret Sharing Scheme](https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing) to [BIP39 mnemonics](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki).
 
+Proposed specification: https://github.com/ethereum/EIPs/pull/3445
+
+## Installation
+
+Yarn:
+
+```
+yarn add shamir-bip39
+```
+
+NPM:
+
+```
+npm install --save shamir-bip39
+```
+
 ## API
 
 ### Split Mnemonic
