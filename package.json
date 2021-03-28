@@ -7,6 +7,10 @@
     "dist",
     "src"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielstreit/shamir-bip39"
+  },
   "engines": {
     "node": ">=10"
   },
@@ -16,7 +20,7 @@
     "test": "tsdx test",
     "lint": "tsdx lint",
     "prepare": "tsdx build",
-    "release": "np",
+    "release": "tsdx build && np",
     "size": "size-limit",
     "analyze": "size-limit --why"
   },
