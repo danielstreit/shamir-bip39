@@ -14,10 +14,10 @@ export const testVectors: TestVector[] = [
     numShares: 3,
     threshold: 2,
     knownShares: {
-      '2':
-        'loud need resist town soon mail buffalo inhale keep hover marine spell',
+      '1':
+        'market mimic toy mixed main swear impact suggest key guilt awful feed',
       '3':
-        'shiver focus soon anchor parade lyrics prize arm sleep coil equal retreat',
+        'occur nominee claw name media history myself hat mix pottery cradle wood',
     },
   },
   {
@@ -28,11 +28,11 @@ export const testVectors: TestVector[] = [
     threshold: 3,
     knownShares: {
       '1':
-        'section cage patient much mango task index control canal wise spare absorb',
+        'virus avocado wage warm square net adult sheriff giggle inject adapt sword',
       '2':
-        'pond hazard switch erase asset green below asthma scheme tiger relief crater',
+        'hedgehog share twice capital core push doctor copy unique food source galaxy',
       '3':
-        'borrow rate pepper castle latin among orbit soldier paddle toy road social',
+        'thumb couple section cloth below mad salmon bounce vessel steel art laundry',
     },
   },
   {
@@ -43,9 +43,9 @@ export const testVectors: TestVector[] = [
     threshold: 2,
     knownShares: {
       '1':
-        'dance tumble female antenna ethics pattern slab mandate zone relax liberty small',
+        'fortune arena vague vehicle crater rhythm pony holiday please twin thought gentle',
       '4':
-        'grocery orchard wife cactus tenant stumble canyon area gift choose collect arctic',
+        'uniform define glow sell tilt photo network together brand reveal carpet mammal',
     },
   },
   {
@@ -55,11 +55,11 @@ export const testVectors: TestVector[] = [
     threshold: 3,
     knownShares: {
       '1':
-        'cabbage race sight unhappy snap soda monitor valve mosquito street shallow snake',
+        'actual dry comfort glance inmate weather trap disease car relief maximum nest',
       '2':
-        'scheme interest undo emerge cricket green asset scene height section arrive raw',
+        'differ sort asthma accuse patient athlete image axis differ transfer entire cave',
       '4':
-        'common reduce lecture thrive catalog cry wet gym weekend fly subway gesture',
+        'october salon fire beauty grief then broom observe original weird verify inch',
     },
   },
   {
@@ -70,11 +70,11 @@ export const testVectors: TestVector[] = [
     threshold: 3,
     knownShares: {
       '1':
-        'wolf butter abuse amazing connect solid glide crush visual mystery robust wait desk repeat pizza balance plastic kitten',
+        'coast solar inspire symbol episode cactus undo team soap broken couch menu business labor beyond sand web topple',
       '3':
-        'trumpet street brain sand clap animal cloth great number cake mosquito safe transfer protect quote poem siren vital',
+        'salon special almost camp capable until hybrid holiday supreme where laptop plunge rare chest amazing hood benefit hybrid',
       '4':
-        'snow unhappy subject indicate twice erode cook enrich pig major wish evoke rabbit wing session mouse chaos boring',
+        'approve daughter liquid tumble carry pioneer cool foil blanket record clip require blood design search blame position issue',
     },
   },
   {
@@ -85,13 +85,13 @@ export const testVectors: TestVector[] = [
     threshold: 4,
     knownShares: {
       '2':
-        'alpha fix age kidney economy innocent soccer cover crawl clip acquire silver general couple diet situate brain run',
+        'humor myth boost lawn come giant orange throw plastic frame force rookie sound never negative apology okay angle',
       '3':
-        'expose elegant awkward artefact combine tool dish pledge method capable wash climb music tobacco auto convince advice media',
+        'allow exact rail beauty song slam cruise habit uncle guess shoulder foster material mango much high pretty canoe',
       '4':
-        'stand adjust apple couch length sponsor season venue boat tide rug awkward steak shoe inch trigger picnic inch',
+        'people carbon october ancient perfect rate produce deal squeeze slab cross east later couch robot tell evidence bone',
       '5':
-        'member adult innocent minor pulp vibrant spice hundred velvet parent used concert across melody almost term party cotton',
+        'wash property story addict general yellow borrow palace spot wrap update category index boy insane pond school mother',
     },
   },
   {
@@ -102,11 +102,11 @@ export const testVectors: TestVector[] = [
     threshold: 3,
     knownShares: {
       '1':
-        'require absurd ordinary like output false bunker enrich kingdom anger luggage dress renew crew sword battle spot digital',
+        'argue famous hold law goose over black science evolve barely reflect elbow top kid define vault hollow erosion',
       '4':
-        'goat film weird rain stumble strategy camera critic seek require mad path warrior huge account ignore flee truth',
+        'bubble beyond large age violin arrest river strike clump print essay supply cram blur air engine guide twelve',
       '6':
-        'volume payment turn february owner consider absurd visit today ozone world easy coast ball leisure hedgehog exercise else',
+        'destroy swim matrix program exile rude divorce daughter warm face mosquito apology churn swift canyon prosper sun tag',
     },
   },
   {
@@ -117,13 +117,13 @@ export const testVectors: TestVector[] = [
     threshold: 4,
     knownShares: {
       '1':
-        'bullet correct inquiry candy place must crowd inspire echo solar direct marble clock voyage verify royal regret funny',
+        'select travel medal split siren rely loop peace sunny air reduce display size shrug arrest ski junior elite',
       '2':
-        'second rice sock sugar country depth present wrist public vital engine jewel craft employ ranch noble myth crane',
+        'gym inhale vendor curtain cram control liquid stem general verify soup length donate shop uncle tilt filter loop',
       '3':
-        'need miracle slow cage vicious ostrich hospital donor attitude cage evidence air female scissors legal other adult stuff',
+        'mountain donor biology velvet oyster peasant toast spell miracle chase recall round oxygen bring attend south never park',
       '4':
-        'busy gossip ice useless simple fatal season brick fury rare curtain hurt survey monitor myth cave liar ill',
+        'disease blind carry boss century collect ready divide awesome february profit sign yard about fever job illness chief',
     },
   },
   {
@@ -134,15 +134,15 @@ export const testVectors: TestVector[] = [
     threshold: 5,
     knownShares: {
       '1':
-        'luxury attend rifle universe stone bitter health antenna flower element rule slogan find cupboard release imitate inmate awake sport outdoor airport royal damp clip',
+        'inform accident song eager race buzz boy define burden connect spin conduct hour name kick amount elite shoe cinnamon distance grief gravity gas confirm',
       '3':
-        'rug wisdom oblige orbit wash escape vocal return swing since draw person start give fancy board fish wrap depth jealous banner reason alarm breeze',
+        'dinner truly agree repeat raccoon execute rigid glow suit good ask prefer correct horror better entire yard pistol fancy crucial special short ceiling fun',
       '4':
-        'sail grape giant heavy scene intact shrimp permit turkey argue truth success tail adjust keen occur dune mammal code bonus assault wedding hour vague',
+        'elegant explain more solar ski ceiling pepper bunker tissue nuclear range bind swift melody seed ahead grief split card ship coach dragon fit floor',
       '5':
-        'code defy tilt unaware aspect machine bicycle ugly worry category paper police pond decade artefact educate dirt lunch idea salad sustain during chicken rebel',
+        'submit dry bubble hammer prize acoustic small limit anger practice slogan jealous gesture crack fresh raven join rough prepare hair pave verb ugly pepper',
       '6':
-        'retire sing stairs mesh thunder yellow ribbon hero online bacon mixed dad coconut among similar bike increase diesel radar rude ugly jacket churn crater',
+        'employ manual assault high face perfect chest work seed travel settle guitar bargain brick view such level budget host retire fantasy verify banana quantum',
     },
   },
   {
@@ -153,13 +153,13 @@ export const testVectors: TestVector[] = [
     threshold: 4,
     knownShares: {
       '2':
-        'toy wool pudding mechanic hole awkward strong scan scatter appear wool surround oppose never usual ahead rack transfer confirm faint viable orphan bamboo bone',
-      '3':
-        'situate verb glow lawsuit normal digital spend tribe few negative luxury vacant tent attract absurd rival luxury bus sample earth average odor track decrease',
+        'village sure delay sentence maze light patient ginger average wrong state penalty guilt upon tiger cereal punch cable buzz runway tape ladder clock throw',
       '5':
-        'phrase suspect actress anger crush exotic sentence frozen snap balance resource vast lock slight potato protect public ill monkey upset poet habit because lobster',
+        'copy math fetch dove chat slice purity idea domain today weather tunnel lab obey diagram rhythm panda depend apple street father gasp bundle shoe',
+      '6':
+        'aim gold world will lucky glare judge drill floor save rough obscure spawn maze vessel people census punch glide mercy moment fix miss power',
       '7':
-        'grunt morning cover dust parent recipe outer march recall bounce female pledge foil follow bar void category want bridge visa vehicle cheese worry switch',
+        'scout still piano bubble exclude body large fine vital shift melody praise gym coast auto number apart stem much good luxury chronic wonder wood',
     },
   },
   {
@@ -170,15 +170,15 @@ export const testVectors: TestVector[] = [
     threshold: 5,
     knownShares: {
       '1':
-        'convince cheap husband quick rabbit cash before treat diary device senior inhale museum stick junk general mansion rude breeze dad grow flock use direct',
+        'unique comic fuel draft soul slide uncover fame stadium belt wrestle potato nothing museum velvet student debate napkin luxury sustain armor any empower move',
       '2':
-        'quiz result honey kitten pony resist change arctic reveal virus tooth opinion alert region theme couch train stairs describe hood tank material gadget visa',
+        'diet sport elbow setup magic long orphan screen embark viable rather marriage unhappy ramp nature unique victory prevent all bracket grab team rule motor',
       '3':
-        'shoot debate buffalo knee fantasy truck punch siren ripple hockey all glow coral just cruise east accuse setup survey wait shine special public spy',
+        'amount fringe peace soap mail hockey worry close game drama horror jungle second cliff entire rigid nerve digital civil habit sunset enhance bless light',
       '4':
-        'trade foster hockey steel swing weasel elder student common size swarm blossom match warm sudden element gorilla envelope ready vast exercise win half critic',
+        'when budget connect analyst join welcome hint giraffe early fan flock metal nurse enlist reward chest floor organ topic collect move tobacco hair goat',
       '6':
-        'resemble nurse exhibit present patient inject chair coin manual pet bleak excite mom warrior coast angry flavor time region mean glad limit steak family',
+        'local toward neck little stage blouse melody vicious protect produce shrimp scale zoo trust hover dog spice deal noise ladder allow metal submit fetch',
     },
   },
   {
@@ -189,15 +189,15 @@ export const testVectors: TestVector[] = [
     threshold: 5,
     knownShares: {
       '3':
-        'buyer auction meat clever brain giggle nice book dolphin clap enjoy panic arena salon initial lens ball evil float lock alien ancient crumble earn',
+        'reopen shove hard squeeze improve survey hello stone boost across garden oppose pause myth stem boil section disagree apple police horse alter fancy educate',
       '4':
-        'mystery talk party sick liberty boil unfair nature rough truly art prepare describe magic foot boy dismiss space hunt pumpkin salute benefit scout mix',
+        'budget nature furnace process dune bargain blade onion happy bind donor used gesture barely ghost cereal couple shoe wisdom ice script satisfy mask hub',
       '5':
-        'issue magic cause farm drive carbon donate mammal airport staff token grocery job enrich oppose shield present achieve hedgehog inquiry rubber again abuse become',
+        'where estate blossom absurd skate ostrich quick useless front enact noise dune grain retire bright eager dutch ice distance sunny major unfair spare poet',
       '6':
-        'ordinary shy man try aspect fun annual office usual phrase crater measure shove harvest icon intact include butter salute water erosion hold bulb offer',
+        'coach collect size neither swear oblige predict night tunnel car vendor cliff business insect all trend pony barrel agree limb adjust truth enter comfort',
       '8':
-        'pull version front again naive man betray mouse now armor sure inherit enforce health banana solid coin awkward fossil paper moon butter corn half',
+        'poverty bench hat belt clap ordinary primary strike hazard issue grocery shield arena spring wet rib smoke paddle cart fade erode shift exhaust pepper',
     },
   },
   {
@@ -208,11 +208,11 @@ export const testVectors: TestVector[] = [
     threshold: 3,
     knownShares: {
       '1':
-        'just prefer else zoo income width yard foil grunt again digital cave',
+        'number swing december merry leader timber flip topic angle album million cabbage',
       '4':
-        'fossil tuna spawn measure next mosquito pigeon employ scorpion tenant decide like',
+        'color like salon witness illness cart valley mystery duty please faint hope',
       '5':
-        'fetch file off fortune arm where ritual coral debate supply half save',
+        'snack else margin fold toilet faculty empower fiction spirit peanut quote harbor',
     },
   },
   {
@@ -222,12 +222,12 @@ export const testVectors: TestVector[] = [
     numShares: 5,
     threshold: 3,
     knownShares: {
-      '2':
-        'expand glass length eyebrow program angry discover figure opinion tunnel couch during trophy student over picnic inherit fine',
+      '1':
+        'shock taste include south metal lyrics never thank drum ring mansion upper token lawn clay attitude machine carry',
       '3':
-        'leaf clarify message subway cargo height kit idea light dash adult tank strategy country horror page wrap replace',
+        'net solid elegant hedgehog exchange title despair cover distance forget idle rather copy above hip outer rubber journey',
       '4':
-        'rely motor law obey print wait unaware avocado pig wrong cricket knee animal until permit sheriff ordinary pioneer',
+        'surface tiger mesh dinosaur prepare elite gloom canyon athlete scale wage ketchup gesture front nerve into come skin',
     },
   },
   {
@@ -238,11 +238,11 @@ export const testVectors: TestVector[] = [
     threshold: 3,
     knownShares: {
       '1':
-        'possible plate list hover boring oblige swallow chair agree device awkward chair garage document tragic position glory right average modify force slab badge budget',
+        'estate jacket oblige wage episode conduct onion milk web piece citizen deputy junior combine ill talent bid jacket toast visit guide goat dry alarm',
       '3':
-        'fuel mesh photo cause burger left unit boat room vanish differ wisdom gather rural window mouse snap seminar average leaf double earn hub toddler',
+        'victory undo worry arm crack slender quarter wrestle pigeon sugar language giraffe matter under electric silly crop screen crumble casino distance together duty wide',
       '4':
-        'wreck brick someone common thunder rent myth choose gather cry illness topple easily taste weapon curtain flavor legal lamp around clever breeze awesome oppose',
+        'castle elephant arrive focus enhance climb lock march prosper stove diesel range useless arrest chimney farm spirit forum pen drastic again vintage blouse wool',
     },
   },
   {
@@ -252,12 +252,12 @@ export const testVectors: TestVector[] = [
     numShares: 5,
     threshold: 3,
     knownShares: {
-      '1':
-        'match group inch nerve dish detail column luggage permit melody stand problem',
+      '3':
+        'expose general submit dune mobile cactus spy health little confirm use glow',
       '4':
-        'rigid doll gadget wrist hover shoe adult hover pilot obvious act exotic',
+        'sure lock maple sight radio because doctor canal cute sword spend season',
       '5':
-        'crystal cancel wood survey country obtain render claim table gesture enact airport',
+        'ranch biology deliver bus blur history pluck begin real metal fork bag',
     },
   },
   {
@@ -268,11 +268,11 @@ export const testVectors: TestVector[] = [
     threshold: 3,
     knownShares: {
       '1':
-        'pioneer must mouse dish multiply price group screen disorder foot before until monitor now jewel vacuum smile measure',
+        'copper cousin wood lumber burst sauce panda coin police addict volume youth armed round twelve sorry later knife',
       '2':
-        'fall edge stick hazard sad vault screen young panda glad decade cage chicken jungle trend affair verb infant',
+        'vapor cover family boring range quit usual whip treat absent very cannon wear alert sausage talent friend hover',
       '3':
-        'magnet goddess two talent virtual cube need kidney always liberty chicken result math athlete decline regular deer limb',
+        'property rack absurd birth jeans leader fossil neck tree rocket around pond spirit fog victory faith chat helmet',
     },
   },
   {
@@ -283,11 +283,11 @@ export const testVectors: TestVector[] = [
     threshold: 3,
     knownShares: {
       '1':
-        'enlist head exotic then expose company senior level wheel hybrid olympic village source purity timber useless obey exhaust enact dignity educate inflict staff obvious',
+        'bread phone spoil benefit garlic receive tent bar fuel saddle loop cereal right mountain horse opera caution wife degree budget keen barrel summer door',
       '2':
-        'consider green trouble barely attitude possible hip around pride absorb drum fold dad modify shell basic hint rotate swing valve crazy fade wide other',
+        'few school derive tired profit where pen hospital cruise leaf lawsuit raise agree fetch rotate kind collect engine injury dust output ring execute humor',
       '4':
-        'cousin offer rescue home mixture mean bullet remove feel stadium maximum other merge meat burst subject citizen obvious raccoon tragic dinosaur iron reject reject',
+        'machine clerk faith lawsuit worry art frog consider ball sustain outer vital situate abuse math salon chair split garbage protect blood plastic blossom light',
     },
   },
   {
@@ -298,11 +298,11 @@ export const testVectors: TestVector[] = [
     threshold: 3,
     knownShares: {
       '2':
-        'wagon honey jeans cup uphold wheat hold project romance provide miracle blind',
+        'below pupil supply paper alcohol script fantasy trick february talk invest youth',
       '3':
-        'spot wall tell office weekend steel supreme move donor chair fatigue bounce',
+        'usage hero idea comic cloud pool dentist vehicle slogan survey myself tape',
       '5':
-        'rocket demise material wave tone ride horror focus legal zoo tortoise novel',
+        'snap moral remain concert tail flip opera album agent layer sentence hover',
     },
   },
   {
@@ -313,11 +313,11 @@ export const testVectors: TestVector[] = [
     threshold: 3,
     knownShares: {
       '2':
-        'carry peasant expire razor federal cable nurse camera unfold veteran tortoise one very kangaroo horn barrel find galaxy',
+        'puppy accuse foam polar board distance electric neutral resource village metal heavy coffee negative normal absent sunny maze',
       '3':
-        'nest hire atom pool ten lesson install furnace test problem wage bone update upgrade turn problem add elite',
+        'lava type portion world chair pride creek interest collect solve input sphere pear spring junior alpha dream lesson',
       '4':
-        'hub fork connect faint immense disorder bitter doll skill region scatter hat collect such space apology approve gaze',
+        'broom ribbon viable month ignore post return exhaust first wheel chaos chaos action master truth decorate front crew',
     },
   },
   {
@@ -328,11 +328,11 @@ export const testVectors: TestVector[] = [
     threshold: 3,
     knownShares: {
       '1':
-        'fun quarter disorder armor cricket bundle scale cement story order space banana give web life guide liar debris call fabric chicken pistol increase hood',
+        'fabric filter major cross jaguar double wagon dignity cruel super mandate harvest true sign buddy unlock body uncle fatal ugly bone link elite toward',
       '3':
-        'august essence light item neck dish acid frost reveal bomb device onion trap puzzle setup theme heart street lazy moral gentle fork goat smart',
-      '4':
-        'diagram achieve twist float check spawn tired degree weird pole border spend gravity cupboard option describe poet diet prosper diamond have shock friend nominee',
+        'often fault carpet know shrug bitter unfair finish foster dust toilet airport follow private usual spoon crunch future uncover runway trial clean actual trophy',
+      '5':
+        'believe nasty betray squirrel protect among lend salute nurse sphere stumble hawk lobster monkey sand hat clinic skin join travel donor enrich hawk struggle',
     },
   },
   {
@@ -343,11 +343,13 @@ export const testVectors: TestVector[] = [
     threshold: 3,
     knownShares: {
       '1':
-        'resist slide girl emotion jungle member wheat fossil train phone exile shy',
+        'chicken minute phrase report light lunch effort assist wrist ice material donate',
       '2':
-        'matrix valley middle super lunar metal pottery okay flower diesel album power',
-      '5':
-        'tree usual decline chase near pole endless next decorate ostrich tray puzzle',
+        'wild fit discover dove arch donate people merit walnut corn cool table',
+      '3':
+        'series liquid warrior buffalo casual wrestle cause equal absurd festival machine sail',
+      '4':
+        'possible steak tenant verify canvas super rose immune replace they fruit dash',
     },
   },
   {
@@ -358,11 +360,11 @@ export const testVectors: TestVector[] = [
     threshold: 3,
     knownShares: {
       '1':
-        'same empty toy cause pilot liquid patrol host swallow hammer price erupt flame robust blush aware garment loud',
-      '2':
-        'leopard reason theme ginger bubble chicken banner ahead east abuse honey onion mutual avocado rule syrup across food',
+        'nice outdoor genre dismiss diesel muffin express unveil about injury acid stay design math spare drift extend riot',
+      '3':
+        'agree volcano clerk mesh rescue cruise accident provide glue engine between poverty nature achieve tornado remain knock conduct',
       '4':
-        'cycle between antique result fun quit erupt charge emotion frame trip silk easily famous across volcano tiny crawl',
+        'behind damp invest soup foam elevator media charge surprise donkey stuff dune carpet connect twenty elephant glance rapid',
     },
   },
   {
@@ -373,11 +375,11 @@ export const testVectors: TestVector[] = [
     threshold: 3,
     knownShares: {
       '1':
-        'jazz tobacco fall enhance great suffer resist illegal exclude play jump cradle final festival occur shop loud tower mixture bar wife list rural matrix',
+        'various peace author gas lumber mean spike stone special leaf surprise glass universe trip gold salt year alone fish sample mind noise risk salad',
       '2':
-        'salon pave gesture major torch gloom dumb ice office phrase play purse tip modify poet major movie life hollow climb abandon hybrid portion lend',
+        'utility hammer forest despair guide sausage coin code mind cargo front addict lion elder suit aerobic mansion fury hollow travel novel fire desert fever',
       '3':
-        'switch notable wear tray mouse expect blast legend summer bike salad shield prison broccoli flower prosper obtain hole kiss please solution black aisle sort',
+        'beef buddy panda jar vague target butter magnet false exile treat derive ill half swamp fine vote fashion permit shy cool chapter museum sick',
     },
   },
 ];

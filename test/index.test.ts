@@ -1,37 +1,25 @@
-import { splitMnemonic, recoverMnemonic } from '../src';
-import { generateMnemonic } from 'bip39';
+import { split, recover } from '../src';
 import { testVectors } from './vectors';
 import { pick, sampleSize } from 'lodash';
 
-describe('end to end', () => {
-  [128, 160, 192, 224, 256].forEach(strength => {
-    it(`should split and recover a mnemonic of strength ${strength}`, () => {
-      const mnemonic = generateMnemonic(strength);
-      const shares = splitMnemonic(mnemonic, 5, 3);
-      const recoveredMnemonic = recoverMnemonic(pick(shares, ['1', '3', '4']));
-
-      expect(recoveredMnemonic).toBe(mnemonic);
-    });
-  });
-});
-
 describe('split and recover test vectors', () => {
-  testVectors.forEach(({ entropy, mnemonic, numShares, threshold }) => {
-    it(`should split and recover the mnemonic for ${entropy}`, () => {
-      const shares = splitMnemonic(mnemonic, numShares, threshold);
+  testVectors.forEach(({ mnemonic, numShares, threshold }) => {
+    it(`should split and recover the mnemonic for ${mnemonic}`, () => {
+      const shares = split(mnemonic, numShares, threshold);
       const sampledShareIds = sampleSize(Object.keys(shares), threshold);
-      const recovered = recoverMnemonic(pick(shares, sampledShareIds));
+      const recovered = recover(pick(shares, sampledShareIds));
 
       expect(recovered).toBe(mnemonic);
     });
   });
 
   describe('with fewer than the threshold shares', () => {
-    testVectors.forEach(({ entropy, mnemonic, numShares, threshold }) => {
-      it(`fail recover the mnemonic for ${entropy}`, () => {
-        const shares = splitMnemonic(mnemonic, numShares, threshold);
+    testVectors.forEach(({ mnemonic, numShares, threshold }) => {
+      it(`fail recover the mnemonic for ${mnemonic}`, () => {
+        const shares = split(mnemonic, numShares, threshold);
+
         const sampledShareIds = sampleSize(Object.keys(shares), threshold - 1);
-        const recovered = recoverMnemonic(pick(shares, sampledShareIds));
+        const recovered = recover(pick(shares, sampledShareIds));
 
         expect(recovered).not.toBe(mnemonic);
       });
@@ -40,11 +28,37 @@ describe('split and recover test vectors', () => {
 });
 
 describe('recover known shares', () => {
-  testVectors.forEach(({ entropy, mnemonic, knownShares }) => {
-    it(`should recover the mnemonic from known shares for ${entropy}`, () => {
-      const recoveredMnemonic = recoverMnemonic(knownShares);
+  testVectors.forEach(({ mnemonic, knownShares }) => {
+    it(`should recover the mnemonic from known shares for ${mnemonic}`, () => {
+      const recoveredMnemonic = recover(knownShares);
 
       expect(recoveredMnemonic).toBe(mnemonic);
     });
+  });
+});
+
+describe('invalid inputs', () => {
+  it('should throw when `numShares` is greater than 2048', () => {
+    expect(() => {
+      split('abandon abandon', 2050, 3);
+    }).toThrow();
+  });
+
+  it('should throw when `threshold` is greater than `numShares`', () => {
+    expect(() => {
+      split('abandon abandon', 5, 6);
+    }).toThrow();
+  });
+
+  it('should throw when `threshold` is less than 2', () => {
+    expect(() => {
+      split('abandon abandon', 4, 1);
+    }).toThrow();
+  });
+
+  it('should throw when a word is not in the word list', () => {
+    expect(() => {
+      split('abandon abandon notInList', 5, 4);
+    }).toThrow();
   });
 });
