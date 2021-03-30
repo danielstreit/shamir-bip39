@@ -13,6 +13,7 @@ export function lagrange(at: number, x: number[], y: number[]) {
   let product;
 
   for (let i = 0; i < x.length; i++) {
+    /* istanbul ignore else */
     if (y[i]) {
       product = logs[y[i]];
 
