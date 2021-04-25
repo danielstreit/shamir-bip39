@@ -39,14 +39,24 @@
   "name": "shamir-bip39",
   "author": "Daniel Streit",
   "module": "dist/shamir-bip39.esm.js",
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  },
   "size-limit": [
     {
       "path": "dist/shamir-bip39.cjs.production.min.js",
-      "limit": "10 KB"
+      "limit": "120 KB"
     },
     {
       "path": "dist/shamir-bip39.esm.js",
-      "limit": "10 KB"
+      "limit": "120 KB"
     }
   ],
   "devDependencies": {
