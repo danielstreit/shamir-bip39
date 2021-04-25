@@ -1,14 +1,18 @@
-import { Shares } from './types';
-import { mnemonictToIntVector } from './mnemonicToIntVector';
-import { wordlist } from './wordlist';
+import { hexToIntVector } from './hex';
 import { lagrange } from './lagrange';
+import { leftPad } from './leftPad';
 
-export function recover(shares: Shares) {
+/**
+ * Recovers a hex secret from the given shares.
+ *
+ * Based on https://github.com/grempe/secrets.js/blob/14a4b682a28242b1dbe5506674b5d5f476b78dbf/secrets.js#L549
+ */
+export function recoverHex(shares: Record<string, string>) {
   const x: number[] = [];
   const y: number[][] = [];
 
-  // Convert each share to an int vector and then rotate
-  // those arrays where the first element of each row is converted to
+  // Split each share's hex data into an Array of Integers,
+  // then 'rotate' those arrays where the first element of each row is converted to
   // its own array, the second element of each to its own Array, and so on for all of the rest.
   // Essentially zipping all of the shares together.
   //
@@ -36,25 +40,20 @@ export function recover(shares: Shares) {
   //   [ 177, 127, 206 ],
   //   [ 196, 149, 81 ] ]
   //
-
   Object.keys(shares).forEach(shareId => {
+    const share = hexToIntVector(shares[shareId]);
     x.push(parseInt(shareId, 10));
-    const data = mnemonictToIntVector(shares[shareId]);
 
-    for (let j = 0; j < data.length; j++) {
+    for (let j = 0; j < share.length; j++) {
       y[j] = y[j] || [];
-      y[j][x.length - 1] = data[j];
+      y[j][x.length - 1] = share[j];
     }
   });
 
   return y
     .map(part => lagrange(0, x, part))
     .reduce((accum, part) => {
-      const word = wordlist[part];
-      if (!accum) {
-        return word;
-      } else {
-        return `${accum} ${word}`;
-      }
+      const partHex = leftPad(part.toString(16), '0', 2);
+      return accum + partHex;
     }, '');
 }
